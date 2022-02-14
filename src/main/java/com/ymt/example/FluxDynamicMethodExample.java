@@ -7,11 +7,11 @@ import reactor.core.publisher.Flux;
  * @author yumingtao
  * @date 2022/2/14 17:26
  */
-public class FluxDynamicExample {
+public class FluxDynamicMethodExample {
     public static void main(String[] args) {
-        FluxDynamicExample fluxDynamicExample = new FluxDynamicExample();
-        fluxDynamicExample.fluxGenerate();
-        fluxDynamicExample.fluxCreate();
+        FluxDynamicMethodExample fluxDynamicMethodExample = new FluxDynamicMethodExample();
+        fluxDynamicMethodExample.fluxGenerate();
+        fluxDynamicMethodExample.fluxCreate();
     }
 
     public void fluxGenerate() {
